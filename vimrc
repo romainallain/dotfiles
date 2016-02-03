@@ -23,3 +23,4 @@ set softtabstop=4
 set tabstop=4
 set expandtab
 set backspace=2
+filetype plugin indent on
