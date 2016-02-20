@@ -1,0 +1,3 @@
+# launch a LFI discover on parameter "rub" in given url
+# -C = colors // -b = blind // -d 6 = depth 6
+fimap -u "http://www.foourl.com/index.php?rub=1" -C -b -d 6
