@@ -1,0 +1,6 @@
+# initial config
+git config --global user.email "my_email_used_for_github_account"
+# commit and push to github
+git add *
+git commit -m "lolilol"
+git push origin master
