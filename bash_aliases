@@ -5,6 +5,8 @@
 # aliases
 ############
 alias la='ls -la'
+alias ll='ls -lA'
+alias ipcat='echo "Eth0 ip address" && ifconfig eth0 | grep "inet " && route -n'
 alias burp='java -jar -Xmx2G /root/Tools/Burp/burpsuite_pro_v1.6.39.jar'
 
 ############
@@ -15,6 +17,4 @@ alias burp='java -jar -Xmx2G /root/Tools/Burp/burpsuite_pro_v1.6.39.jar'
 export EDITOR=vim
 
 # cheat -- pip install cheat
-export CHEATCOLORS=true
-
-
+xport CHEATCOLORS=true
