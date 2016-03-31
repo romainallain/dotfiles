@@ -17,4 +17,4 @@ alias burp='java -jar -Xmx2G /root/Tools/Burp/burpsuite_pro_v1.6.39.jar'
 export EDITOR=vim
 
 # cheat -- pip install cheat
-xport CHEATCOLORS=true
+export CHEATCOLORS=true
