@@ -1,0 +1,3 @@
+xwd -root -screen -silent -display <target>:0 > screenshot.xwd
+convert screenshot.xwd screenshot.jpg
+

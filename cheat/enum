@@ -1,0 +1,6 @@
+# using nse
+nmap --script smb-enum-users.nse -p445 <host>
+nmap -sU -sS --script smb-enum-users.nse -p U:137,T:139 <host>
+
+# use classic share folders list, in case os blocks it
+enum4linux -s ~/default_shares.txt <target>

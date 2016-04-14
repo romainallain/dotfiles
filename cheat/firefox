@@ -1,0 +1,3 @@
+# for SSL v3 auth :
+# Firefox cannot guarantee the safety of your data on <host> because it uses SSLv3, a broken security protocol.
+about.config ; security.tls.version.min ; set value to 0

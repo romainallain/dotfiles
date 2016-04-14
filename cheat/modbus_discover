@@ -1,0 +1,11 @@
+# using PLCScan
+root@kali:/var/git/plcscan# python plcscan.py <target> --brute-uid
+
+# using Nmap
+root@kali:~# nmap --script modbus-discover.nse --script-args='modbus-discover.aggressive=true' -p 502 <target>
+
+# using MSF
+# warning: maybe you will have to change option "UNIT_ID"
+msf > use auxiliary/scanner/scada/modbusdetect
+msf auxiliary(modbusdetect) > set RHOSTS <target>
+msf auxiliary(modbusdetect) > run
