@@ -1,0 +1,3 @@
+# method to check for non default vhosts
+# useful for IIS default vhost bypassing
+openssl s_client -connect <host>:443 | grep CN=
