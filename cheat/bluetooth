@@ -1,0 +1,6 @@
+# check if ubertooth dongle is working
+ubertooth-specan-ui
+# sniff from LAP around
+ubertooth-rx
+# sniff BTLE and store it in pcapng
+ubertooth-btle -p -r uberbtle.pcapng
