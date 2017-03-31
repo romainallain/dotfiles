@@ -1,0 +1,5 @@
+# everyday scan
+nmap -A -oN nmap_output.txt -p- <target>
+
+# target discovery
+nmap -sn <range>
