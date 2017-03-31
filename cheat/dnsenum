@@ -1,0 +1,5 @@
+# DNS enumeration and information gathering
+# https://www.exploit-db.com/docs/12389.pdf
+fierce -dns <target_server>
+host -l www.google.com <target_server>
+dnsenum --enum -f /usr/share/dnsenum/dns.txt -r <top_level_domain>
